@@ -37,21 +37,20 @@
 
         <!-- Project Grid -->
         <div class="project-grid">
-            <!-- Template Project Card (Copy this structure for new projects) -->
             <div class="project-card" data-category="web">
                 <div class="project-card-inner">
                     <div class="project-card-front">
                         <img src="project-placeholder.jpg" alt="Project">
                         <h3>Project Title</h3>
                         <div class="skills-tags">
-                            <span class="skill-tag">Skill 1</span>
-                            <span class="skill-tag">Skill 2</span>
-                            <span class="skill-tag">Skill 3</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
                         </div>
                     </div>
                     <div class="project-card-back">
                         <h3>Project Title</h3>
-                        <p>Project description goes here...</p>
+                        <p>A detailed description of the project.</p>
                         <div class="project-links">
                             <a href="#" class="live-demo">Live Demo</a>
                             <a href="#" class="source-code">Source Code</a>
@@ -59,22 +58,18 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Add more project cards as needed -->
         </div>
 
         <!-- Project Storage Box -->
         <div class="project-storage">
             <h2 class="rainbow-text">Project Storage</h2>
             <div class="storage-grid">
-                <!-- Empty boxes for future projects -->
-                <div class="storage-box">
+                <div class="storage-box add-new" onclick="openProjectModal()">
                     <div class="add-project">
                         <i class="fas fa-plus"></i>
                         <p>Add New Project</p>
                     </div>
                 </div>
-                <!-- Repeat for desired number of storage boxes -->
                 <div class="storage-box empty">
                     <span class="box-placeholder">Future Project</span>
                 </div>
@@ -94,4 +89,4 @@
 
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
